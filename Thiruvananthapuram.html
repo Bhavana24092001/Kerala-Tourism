@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(223, 239, 246);
+            
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .background{
+            width: 100%;
+            height: 10vh;
+            background-image: linear-gradient( 180deg, rgb(40, 158, 205), rgb(197, 36, 63));
+            background-size: cover;
+            background-position: center;
+            position: fixed;
+            
+
+        }
+        .navbar{
+            position: fixed;
+            width: 85%;
+            margin: auto;
+            padding-left: 450px ;
+            padding-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .navbar ul li::after{
+            content: '';
+            height: 3px;
+            width: 0;
+            background-color: rgb(34, 181, 239);
+            position: absolute;
+            left: 0px;
+           bottom: -10px; 
+           transition: 0.5s;
+        }
+        .navbar ul li:hover::after{
+           width: 100%;
+        }
+        #image{
+    width: 100%;
+    height: 600px;
+    background-image: url(./Thiruvananthapuram2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#text{
+    font-size: 60px;
+        color:white;
+       text-align: center;
+       background-color: black;
+       opacity: 0.8;
+       width: 770px;
+       height: 90px;
+       position: absolute;
+       left: 400px;
+       top: 200px;
+       padding-top: 20px;
+    }
+#heading{
+    color: rgb(44, 159, 205);
+    text-align: center;
+    font-size: 45px; 
+    padding-top: 20px;
+
+}
+pre{
+    font-size: 18px;
+    font-style:oblique;
+    padding-left: 30PX;
+}
+#time{
+    font-size: 30px;
+    padding-left: 30px;
+    color: rgb(40, 158, 204);
+    text-align: center;
+}
+#list{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(40, 158, 204);
+
+}
+.main{
+    width: 300px;
+    height:300px ;
+    float: left;
+    padding: 100px;
+    border-radius: 20px 20px 20px 20px;
+}
+#a1{
+    width: 300px;
+    height: 200px;
+   
+}
+#a2{
+    width: 400px;
+    height: 20px;
+    background-color: rgb(40, 158, 204); 
+     color: white;
+     padding-top: 50px;
+     text-align: center;
+}
+
+#a3{
+    width: 390px;
+    height: 150px;
+    color: white;
+    background-color:rgb(190, 27, 54) ;
+    padding-left: 10px;
+}
+#m1{
+    padding-top: 100px;
+}
+#m2{
+    padding-top: 100px;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <div class="background">
+            <div class="navbar">
+                <ul>
+                    <li><a href="./Home.html">HOME</a></li>
+                    <li><a href="./MustVisitPlaces.html">MUST VISIT PLACES</a></li>
+                    <li><a href="./Destinations.html">DESTINATIONS</a></li>
+                    <li><a href="./Enquiry.html">ENQURY</a></li>
+                    <li><a href="./Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="image">
+        <div><h1 id="text">THIRUVANANTHAPURAM</h1></div>
+    </div>
+    <h1 id="heading" >THIRUVANANTHAPURAM BACKWATERS KERALA</h1>
+    <PRE>
+
+     Trivandrum or Thiruvananthapuram, the capital city of Kerala is known for an array of reasons; the magical backwaters are one among them! 
+ Situated on the coastlines of the majestic Arabian Sea, this wonderful city serves as an ideal holiday destination for almost all the types of 
+ travellers including those who yearn to romance the silent backwaters while on their Kerala trip.
+
+     Located around 6km from this electrifying city, there are the mystical Thiruvallam Backwaters that are touted as the most bucolic among all 
+ other backwaters in Kerala. Also called the Veli Backwaters, this stretch of backwater is located in a quaint tourist village called Veli and is 
+ thronged by an astounding number of visitors on their backwaters holidays in Kerala.
+
+     If you are searching for the most amazing backwater destinations in Kerala, you must visit this gorgeous village from Trivandrum! While in 
+ here, you can also indulge in and enjoy some of the most adventurous water sports and activities in Kerala.
+
+    </PRE>
+    <h1 id="time">Best Time to Visit Thiruvananthapuram Backwaters</h1>
+    <pre>
+
+     WiOctober to February is the best time to visit the Thiruvallam backwaters in Trivandrum. During this part of the year, visitors can enjoy 
+  pleasant climate along with ample of other tourist activities in and around the Veli backwaters.
+
+</pre>
+  <h1 id="list">Tourist Attractions Around Thiruvananthapuram Backwaters:</h1>
+
+  <div class="main"> <div id="a1"><img src="./Veli-Lagoon.jpg" alt=""></div><div id="a2">VELI LAGOON</div><div id="a3">
+    Hidden away amidst lush and evergreen vegetation, this pictorial lagoon is located within a proximity to Trivandrum. Wearing
+     a quaint outlook, Veli Lagoon offers an ample of fun-filled tourist activities to its visitors. Pedal boating, speed boating,
+      and rowing are some of the most sought after activities around this lagoon.</div></div>
+<div class="main" id="m1"> <div id="a1"><img src="./Akkulam-Lake.jpg" alt=""></div><div id="a2">AKKULAM LAKE</div><div id="a3">
+    If you are travelling with the junior member of your family, a visit to the scenic Akkulam Lake is a must for you! A beautiful mix
+     of salubrious nature and a leisurely ambience, it also serves as a wonderful picnic spot.</div></div>
+<div class="main" id="m2"> <div id="a1"><img src="./Veli-Tourist-Village.jpg" alt=""></div><div id="a2">VELI TOURIST VILLAGE</div><div id="a3">
+    Located within the locales of Veli Lagoon, this rustic hamlet offers a perfect atmosphere to unwind oneself into the lap of Mother Nature.
+     Fringed with an array of natural marvels, this tourist village is laced with an array of exciting activities.</div></div><br>
+</body>
+</html>

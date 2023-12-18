@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(198, 231, 250);
+        }
+        *{
+            margin: 0PX;
+            padding: 0PX;
+        }
+        .background{
+            width: 100%;
+            height: 10vh;
+            background-image: linear-gradient( 180deg, rgb(40, 158, 205), rgb(197, 36, 63));
+            background-size: cover;
+            background-position: center;
+            position: fixed;
+            
+
+        }
+        .navbar{
+            position: fixed;
+            width: 85%;
+            margin: auto;
+            padding-left: 450px ;
+            padding-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .navbar ul li::after{
+            content: '';
+            height: 3px;
+            width: 0;
+            background-color: rgb(34, 181, 239);
+            position: absolute;
+            left: 0px;
+           bottom: -10px; 
+           transition: 0.5s;
+        }
+        .navbar ul li:hover::after{
+           width: 100%;
+        }
+      
+        img{
+            float: right;
+            border-radius: 50px 50px 50px 50px;
+            width: 600px;
+            height: 400px;
+            padding-right: 20px;
+            padding-top: 10px;   
+            
+        }
+        h1{
+            text-align: center;
+            color: rgb(34, 154, 202);
+            font-size: 45px;
+            padding-top: 90px;
+        }
+        pre{
+            padding-top: 10px;
+            font-size: 18px;
+            font-style: oblique;
+           
+           
+           
+        }
+        p{
+            padding-left: 30px;
+            font-size: 18px;
+            
+        }
+        #link{
+            text-decoration: none;
+            color:rgb(183, 28, 54);
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <div class="background">
+            <div class="navbar">
+                <ul>
+                    <li><a href="./Home.html">HOME</a></li>
+                    <li><a href="./MustVisitPlaces.html">MUST VISIT PLACES</a></li>
+                    <li><a href="./Destinations.html">DESTINATIONS</a></li>
+                    <li><a href="./Enquiry.html">ENQURY</a></li>
+                    <li><a href="./Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <h1>Wayanad</h1>
+      
+        <img src="./Wayanad.jpg" >
+         <pre>
+
+     Cradled in the lap of the Western Ghats, Wayanad truly deserves a top rank in the list 
+ of places to visit in Kerala.Situated at an astounding height of 700-2,100m,this stunning 
+ hill station is all about fantasy,untouched nature,unforgettable moments, and merriment!  
+
+    Adding more to <a href="./WayanadMap.html" id="link">Wayanad’s</a> enchanting beauty, visitors can also revisit and unfold 
+ history while visiting this hilly retreat.Yes, the lush and pristine forests in Wayanad 
+ are said to be inhabited more than 3,000 years ago.
+
+</pre>
+
+ <pre><center>You may also like :<a href="./HillStations.html" id="link"> Most Popular Hill Stations in Kerala</a></center>
+
+</pre>
+
+    <p><b>Best time to visit :-</b> Year round destination</p>
+    <p><b>Tourist Attractions :- </b> Banasura Sagar Dam, Chembra Peak, Soochipara Falls, Sentinel Rock Falls,
+      Kanthanpara Waterfalls, Kuruva Island, Pookode Lake, Lakkidi, Muthanga Wildlife Sanctuary, Pakshipathalam, 
+         Edakkal Caves, SulthanBthery, Chain Tree </p>
+    <p><b>Nearest Airport :- </b>Calicut International Airport (98km)</p>
+    <p><b>Nearest Railway Station :- </b> Nilambur Railway Station (92km / 3 Hours)</p>
+    <p><b>Weather :- </b>Summer (March - May), Winter (December - February), Monsoon (June - September)</p>
+    <br><br><br>
+   
+    
+    
+
+    
+   
+</body>
+</html>

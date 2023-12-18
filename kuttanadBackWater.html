@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(223, 239, 246);
+            
+        }
+        *{
+            margin: 0PX;
+            padding: 0PX;
+        } 
+        .background{
+            width: 100%;
+            height: 10vh;
+            background-image: linear-gradient( 180deg, rgb(40, 158, 205), rgb(197, 36, 63));
+            background-size: cover;
+            background-position: center;
+            position: fixed;
+            
+
+        }
+        .navbar{
+            position: fixed;
+            width: 85%;
+            margin: auto;
+            padding-left: 450px ;
+            padding-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .navbar ul li::after{
+            content: '';
+            height: 3px;
+            width: 0;
+            background-color: rgb(34, 181, 239);
+            position: absolute;
+            left: 0px;
+           bottom: -10px; 
+           transition: 0.5s;
+        }
+        .navbar ul li:hover::after{
+           width: 100%;
+        }
+      
+        #image{
+    width: 100%;
+    height: 600px;
+    background-image: url(./Kuttanad1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#text{
+    font-size: 60px;
+        color:white;
+       text-align: center;
+       background-color: black;
+       opacity: 0.8;
+       width: 600px;
+       height: 90px;
+       position: absolute;
+       left: 500px;
+       top: 200px;
+       padding-top: 20px;
+    }
+#heading{
+    color: rgb(48, 156, 199);
+    text-align: center;
+    font-size: 45px;
+    padding-top: 20px ;
+    
+
+}
+pre{
+    font-size: 18px;
+    font-style:oblique;
+    
+    padding-left: 30PX;
+}
+#time{
+    font-size: 30px;
+    padding-left: 30px;
+    text-align: center;
+    color: rgb(66, 165, 205);
+}
+#list{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(63, 164, 204);
+
+}
+.main{
+    width: 300px;
+    height:300px ;
+    float: left;
+    padding: 100px;
+    border-radius: 20px 20px 20px 20px;
+}
+#a1{
+    width: 300px;
+    height: 200px;
+   
+}
+#a2{
+    width: 400px;
+    height: 20px;
+    background-color:rgb(56, 161, 202); 
+     color: white;
+     padding-top: 50px;
+     text-align: center;
+}
+
+#a3{
+    width: 390px;
+    height: 150px;
+    color: white;
+    background-color:rgb(196, 38, 64) ;
+    padding-left: 10px;
+}
+#m1{
+    padding-top: 100px;
+}
+#m2{
+    padding-top: 100px;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <div class="background">
+            <div class="navbar">
+                <ul>
+                    <li><a href="./Home.html">HOME</a></li>
+                    <li><a href="./MustVisitPlaces.html">MUST VISIT PLACES</a></li>
+                    <li><a href="./Destinations.html">DESTINATIONS</a></li>
+                    <li><a href="./Enquiry.html">ENQURY</a></li>
+                    <li><a href="./Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="image">
+        <div><h1 id="text">KUTTANAD</h1></div>
+    </div>
+    <h1 id="heading" >KUTTANAD BACKWATERS KERALA</h1>
+    <PRE>
+      Believe it or not, but every time you visit the Kuttanad region of God’s Own Country, you will find something new to revel in and cherish! 
+ A home to four of the most important rivers in God’s Own Country – Pampa, Meenachil, Achankovil, and Manimala rivers, this part of Kerala is 
+ truly a divine place for the backwaters lovers on a Kerala trip!
+
+      Nestled amidst thick and lush greeneries, the ‘Rice Bowl of India’ or Kuttanad serves as an ideal backwater destination in Kerala. While the 
+ appealing settings and locales of this regions makes it a pictorial destination for the visitors, the backwaters across this part of Kerala keeps 
+ the visitors engrossed with never-ending fun and frolic.
+        
+      Unlike most of the other popular backwater destinations in Kerala, Kuttanad is brimmed with multiple destinations where visitors can enjoy the
+ silent backwaters and delight in their magical charm. And to experience the best of Kerala backwater tours, visitors can embark on houseboat cruises
+ across these backwater stretches and make their vacation memorable!
+    </PRE>
+    <h1 id="time">Best Time to Visit Kuttanad Backwaters</h1>
+    <pre>
+        August to March is the best time to Plan a Kerala trip and visit the enchanting Kuttanad backwaters! During this part of the
+        year, the region experience a mixed of atmospheric conditions and offers a pleasant stay. Mild climate, clear views, and ample
+         of activities make these few months the best time to visit the Kuttanad backwaters.</pre>
+
+  <h1 id="list"><u>Tourist Attractions Around Kuttanad Backwaters:</h1></u>
+
+  <div class="main"> <div id="a1"><img src="./Champakulam (1).jpg" alt=""></div><div id="a2">CHAMPAKULAM</div><div id="a3">
+    Visit this picturesque village while enjoying the alluring charm of Kuttanad Backwaters, and you will get to witness the untouched 
+    foliage of coconut palms and evergreen paddy fields. The home to the St Mary's Forane Church, this is an ideal place to escape the
+    mundane city-life.</div></div>
+<div class="main" id="m1"> <div id="a1"><img src="./Chengannur.jpg" alt=""></div><div id="a2">CHENGANNUR</div><div id="a3">
+    This is one such towns in Kerala that is known for its serenity and balmy ambience. A sought-after destination for the religious
+     and other alike travellers, Chengannur depicts the quaint way of living in livelier ways.</div></div>
+<div class="main" id="m2"> <div id="a1"><img src="./pamba-river.jpg" alt=""></div><div id="a2">PAMBA RIVER</div><div id="a3">
+    Also called the 'Dakshina Ganga', this gurgling river is truly a treat for the visitors. Making its way through different regions
+     of Kuttanad and Alappuzha districts in Kerala, it meets the much-famed Vembanad Lake and creates an irresistible appeal.</div></div><br>
+</body>
+</html>

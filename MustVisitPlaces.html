@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .background{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./Alleppey.jpg);
+            background-size: cover;
+            background-position: center;
+            position: sticky;
+        }
+        .navbar{
+            position: fixed;
+            width: 85%;
+            margin: auto;
+            padding-left: 450px ;
+            padding-top: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: white;
+
+        }
+        .navbar ul li::after{
+            content: '';
+            height: 3px;
+            width: 0;
+            background-color: rgb(34, 181, 239);
+            position: absolute;
+            left: 0px;
+           bottom: -10px; 
+           transition: 0.5s;
+        }
+        .navbar ul li:hover::after{
+           width: 100%;
+        }
+        .content{
+            width: 100%;
+            position: absolute;
+            top: 60%;
+            transform: translateY(-50%);
+            
+            color: white;
+        }
+        .content h1{
+            font-size: 50px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .content p{
+            margin: 20px auto;
+            font-weight: 100;
+            line-height: 25px;
+            text-align: center;
+        }
+        
+        .content h2::before{
+            background-color: white;
+            display: block;
+            width: 140px;
+            height: 2px;
+            content: "";
+            position: absolute;
+            left: 510px;
+            top: 59%;
+            z-index: -1;
+
+        }
+        .content h2::after{
+            background-color: white;
+            display: block;
+            width: 140px;
+            height: 2px;
+            content: "";
+            position: absolute;
+            right: 510px;
+            top: 59%;
+            z-index: -1;
+        }
+        .botton{
+           margin: 40px;
+            float: left;
+            margin-top: 5px;
+        }
+        #a{
+            width: 200px;
+            height: 60px;
+            background-color:rgb(34, 181, 239);
+            color: white;
+            border-radius: 10px 10px 10px 10px ;
+            border-color: rgb(231, 36, 68);
+            font-size: 20px;
+            margin: 40px;
+           
+
+        }
+        #a:hover{
+            background-color: rgb(231, 36, 68);
+            border-color:rgb(34, 181, 239) ;
+        }
+        #b{
+            width: 200px;
+            height: 60px;
+            background-color:rgb(34, 181, 239);
+            color: white;
+            border-radius: 10px 10px 10px 10px ;
+            border-color: rgb(231, 36, 68);
+            font-size: 20px;
+            margin: 40px;
+        }
+        #b:hover{
+            background-color: rgb(231, 36, 68);
+            border-color:rgb(34, 181, 239) ;
+        }
+        #c{
+            width: 200px;
+            height: 60px;
+            background-color:rgb(34, 181, 239);
+            color: white;
+            border-radius: 10px 10px 10px 10px ;
+            border-color: rgb(231, 36, 68);
+            font-size: 20px;
+            margin: 40px;
+        }
+        #c:hover{
+            background-color: rgb(231, 36, 68);
+            border-color:rgb(34, 181, 239) ;
+        }
+        #d{
+            width: 200px;
+            height: 60px;
+            background-color:rgb(34, 181, 239);
+            color: white;
+            border-radius: 10px 10px 10px 10px ;
+            border-color: rgb(231, 36, 68);
+            font-size: 20px;
+            margin: 40px;
+        }
+        #d:hover{
+            background-color: rgb(231, 36, 68);
+            border-color:rgb(34, 181, 239) ;
+        }
+        #e{
+            width: 200px;
+            height: 60px;
+            background-color:rgb(34, 181, 239);
+            color: white;
+            border-radius: 10px 10px 10px 10px ;
+            border-color: rgb(231, 36, 68);
+            font-size: 20px;
+            margin: 40px;
+        }
+        #e:hover{
+            background-color: rgb(231, 36, 68);
+            border-color:rgb(34, 181, 239) ;
+        }
+        #link{
+            text-decoration: none;
+            color: rgb(34, 181, 239);
+            font-size: 23px;
+        }
+        #a1{
+            text-decoration: none;
+            color:white;
+
+        }
+    </style>
+</head>
+<body>
+     <div class="background">
+        <div class="navbar">
+           
+            <ul>
+                
+                <li><a href="./Home.html">HOME</a></li>
+                <li><a href="./MustVisitPlaces.html">MUST VISIT PLACES</a></li>
+                <li><a href="#">DESTINATIONS</a></li>
+                <li><a href="#">ENQUIRY</a></li>
+                <li><a href="#">CONTACT</a></li>
+
+            </ul>
+        </div>
+         
+        <div class="content">
+            <h1>Places to Visit in Kerala</h1>
+            <p>Kerala, a surreal destination where the morning brings in the mist and magic. Fondly called the <b><a href="./God'sWonCountry.html" id="link">God’s Own Country</a></b>“”, this is the place where the <b><a href="./BackWaterDestination.html" id="link">backwaters</a></b> hold everyone captive with their <br>
+                 alluring silence. Yes, it’s the ‘Spice Capital of India’ where the evening wishes adieu with some of the enchanting melodiesplayed by Mother Nature. Yes, such is the beauty and appeal of <br>
+                  Kerala!Let loose the wanderlust in you and plan a trip to this prismatic land; there are an array of places to visit in Kerala. Make sure you make it to all these destinations and curate <br>
+                   some of the most pleasing memories out of your trip. And in case, you are finding it tough to decide the destinations to cover, here is a sorted list of tourist places that will <br>
+                    fill your travelogue with fun, frolic and excitement:</p>
+
+                <div class="botton">
+                <button value="" id="a"> <a id="a1" href="./Alleppey.html">ALLEPPEY</a></button>
+                <button value="" id="a"> <a id="a1" href="./Wayanad.html">WAYAND</a> </button>
+                <button value="" id="a"> <a id="a1" href="./Cochin.html">COCHIN</a> </button>
+                <button value="" id="a"> <a id="a1" href="./Munnar.html">MUNNAR</a> </button>
+                <button value="" id="a"> <a id="a1" href="./Kumarakom.html">KUMARAKOM</a> </button>   
+                <button value="" id="a"> <a id="a1" href="./Kovalam.html">KOVALAM</a> </button>
+                <button value="" id="a"> <a id="a1" href="./Thekkady.html">THEKKADY</a> </button>
+                <button value="" id="a"> <a id="a1" href="./Kollam.html">KOLLAM</a> </button>
+                <button value="" id="a"> <a id="a1" href="./Vagmon.html">VAGMON</a> </button>
+                <button value="" id="a"> <a id="a1" href="Kozhikode.html">KOZHIKODE</a> </button></div></div>
+        <div>
+        </div>
+     </div>
+     <script>
+
+    
+     
+     </script>
+</body>
+</html>

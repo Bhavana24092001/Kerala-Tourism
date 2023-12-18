@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0PX;
+            padding: 0PX;
+        }
+        .background{
+            width: 100%;
+            height: 10vh;
+            background-image: linear-gradient( 180deg, rgb(40, 158, 205), rgb(197, 36, 63));
+            background-size: cover;
+            background-position: center;
+            position: fixed;
+            
+
+        }
+        .navbar{
+            position: fixed;
+            width: 85%;
+            margin: auto;
+            padding-left: 450px ;
+            padding-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .navbar ul li::after{
+            content: '';
+            height: 3px;
+            width: 0;
+            background-color: rgb(34, 181, 239);
+            position: absolute;
+            left: 0px;
+           bottom: -10px; 
+           transition: 0.5s;
+        }
+        .navbar ul li:hover::after{
+           width: 100%;
+        }
+       
+        #image{
+    width: 100%;
+    height: 700px;
+    background-image: url(./kollamBeach.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#text{
+    font-size: 60px;
+        color:white;
+       text-align: center;
+       background-color: black;
+       opacity: 0.8;
+       width: 400px;
+       height: 90px;
+       position: absolute;
+       left: 600px;
+       top: 250px;
+       padding-top: 20px;
+    }
+#heading{
+    color:rgb(42, 155, 200);
+    text-align: center;
+    padding-top: 30px;
+
+}
+pre{
+    font-size: 18px;
+    font-style:oblique;
+   
+    padding-left: 30PX;
+}
+p{
+    font-size: px;
+}
+#time{
+    font-size: 30px;
+    padding-left: 30px;
+    color:rgb(42, 155, 200);
+    text-align: center;
+}
+#list{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(42, 155, 200);
+
+}
+.main{
+    width: 300px;
+    height:300px ;
+    float: left;
+    padding: 150px;
+    border-radius: 20px 20px 20px 20px;
+}
+#a1{
+    width: 400px;
+    height: 200px;
+   
+}
+#a2{
+    width: 400px;
+    height: 40px;
+    background-color:rgb(42, 155, 200); 
+     color: white;
+     padding-top: 60px;
+     text-align: center;
+}
+
+#a3{
+    width: 390px;
+    height: 120px;
+    color: white;
+    background-color:rgb(207, 35, 63) ;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#m{
+    width: 400px;
+    height: 250px;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="background">
+            <div class="navbar">
+                <ul>
+                    <li><a href="./Home.html">HOME</a></li>
+                    <li><a href="./MustVisitPlaces.html">MUST VISIT PLACES</a></li>
+                    <li><a href="./Destinations.html">DESTINATIONS</a></li>
+                    <li><a href="./Enquiry.html">ENQURY</a></li>
+                    <li><a href="./Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="image">
+        <div><h1 id="text">Kollam</h1></div>
+    </div>
+    <h1 id="heading" >KOLLAM BACKWATERS KERALA</h1>
+    <pre>
+        
+    Located around 71km towards the north of Trivandrum, Kollam is one of the most kaleidoscopic backwater destinations in Kerala. A pristine tourist 
+destination along the Malabar Coast, this port city in God’s Own Country is located along the serene Ashtamudi Lake and is thronged by a large 
+number of backwater travellers from all over the world.
+
+    While this pictorial city boasts of its myriad list of offerings to the visitors, the pristine Ashtamudi Lakes entices the backwater enthusiasts 
+to plunge into the houseboats and manoeuvre across them. The city also has a large number of the hotels and resorts that offers exciting backwater 
+experience in Kerala.
+
+    If you are searching for some of the best backwater destinations in Kerala, you should plan a Kerala trip soon, and visit this pictorial city 
+along the banks of the Ashtamudi Lake. To note here, Kollam also has a large number of waterways that connects it to some of the other most popular 
+backwater destinations in Kerala.
+
+</pre>
+
+<h1 id="time"><b>Best Time to Visit Kollam Backwaters</b></h1>    
+<pre>
+
+    September to February is undoubtedly the best time to visit the Kollam backwaters in Kerala! This is the time when the city welcomes winter; 
+temperature starts falling and the atmosphere gets mystical with the advent of the fogs and mists! This is also the ideal time to embark on 
+houseboat cruises across the Ashtamudi Lake or avail the many different Kerala backwater tour package and enjoy the alluring charm of Kollam 
+backwaters.
+
+</pre><br>
+
+ <h1 id="list">Tourist Attractions Around Kollam Backwaters</h1>
+
+<div class="main"> <div id="a1"><img src="./kollam-beach.jpg" alt="" id="m"></div><div id="a2">KOLLAM BEACH</div><div id="a3">
+    Kollam Beach is surely a place that you cannot afford to miss while romancing the Kollam Backwaters. A paradise for the beach goers, this
+ getaway is also popular canal cruises, village tours, and much more exciting activities.</div></div>
+ <div class="main" > <div id="a1"><img src="./Mata-Amritanandamayi-Math.jpg" alt="" id="m"></div><div id="a2">MATA AMRITANANDAMAYI MATH</div><div id="a3">
+    A spiritual locale around Kollam Backwaters that ushers humanity, Mata Amritanandamayi Math is thronged by global tourists. One can indulge in evening 
+    prayers, meditate, or can simply visit this pious place for peace of mind and soul.</div></div><br>
+
+<BR><BR></BR></BR>
+    
+
+
+              
+</body>
+</html>

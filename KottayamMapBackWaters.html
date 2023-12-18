@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        .background{
+            width: 100%;
+            height: 10vh;
+            background-image: linear-gradient( 180deg, rgb(40, 158, 205), rgb(197, 36, 63));
+            background-size: cover;
+            background-position: center;
+            position: fixed;
+            
+
+        }
+        .navbar{
+            position: fixed;
+            width: 85%;
+            margin: auto;
+            padding-left: 450px ;
+            padding-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .navbar ul li::after{
+            content: '';
+            height: 3px;
+            width: 0;
+            background-color: rgb(34, 181, 239);
+            position: absolute;
+            left: 0px;
+           bottom: -10px; 
+           transition: 0.5s;
+        }
+        .navbar ul li:hover::after{
+           width: 100%;
+        }
+        #image{
+    width: 100%;
+    height: 600px;
+    background-image: url(./kottayam1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#text{
+    font-size: 60px;
+        color:white;
+       text-align: center;
+       background-color: black;
+       opacity: 0.8;
+       width: 400px;
+       height: 90px;
+       position: absolute;
+       left: 600px;
+       top: 230px;
+       padding-top: 20px;
+    }
+#heading{
+    color: rgb(42, 145, 186);
+    text-align: center;
+    padding-top: 30px;
+
+}
+pre{
+    font-size: 18px;
+    font-style:oblique;
+   
+    padding-left: 30PX;
+}
+p{
+    font-size: px;
+}
+#time{
+    font-size: 30px;
+    padding-left: 30px;
+    color:  rgb(42, 145, 186);
+    text-align: center;
+}
+#list{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(42, 145, 186);
+
+}
+.main{
+    width: 300px;
+    height:300px ;
+    float: left;
+    padding: 100px;
+    border-radius: 20px 20px 20px 20px;
+}
+#a1{
+    width: 300px;
+    height: 200px;
+   
+}
+#a2{
+    width: 400px;
+    height: 30px;
+    background-color:rgb(30, 150, 198); 
+     color: white;
+     padding-top: 65px;
+     text-align: center;
+}
+
+#a3{
+    width: 390px;
+    height: 100px;
+    color: white;
+    background-color:rgb(206, 34, 63) ;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#m1{
+    padding-top: 100px;
+}
+#m2{
+    padding-top: 100px;
+}
+.main1{
+    width: 300px;
+    height:150px ;
+    float: left;
+    padding: 100px;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="background">
+            <div class="navbar">
+                <ul>
+                    <li><a href="./Home.html">HOME</a></li>
+                    <li><a href="./MustVisitPlaces.html">MUST VISIT PLACES</a></li>
+                    <li><a href="./Destinations.html">DESTINATIONS</a></li>
+                    <li><a href="./Enquiry.html">ENQURY</a></li>
+                    <li><a href="./Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="image">
+        <div><h1 id="text">KOTTAYAM</h1></div>
+    </div>
+    <h1 id="heading" >KOTTAYAM BACKWATERS KERALA</h1>
+    <pre>
+
+        The ‘AksharNagari’ or the ‘Land of Letters’ in God’s Own Country wears a number of hats! Be it the diverse history, art and craft, cultures
+ and traditions, this pictorial city in Kerala is a heaven for the tourists.
+
+        Located in the basin of the mystical Vembanad Lake, this magnificent city also serves as a sought after backwater destination in Kerala. 
+ Also, as the perennial streams from the Western Ghats flows down and meet this gorgeous lake, Kottayam serves all the purpose of a backwater 
+ lover throughout the year. Whether planning a Kerala trip with family members, friends, or colleagues, visitors can make it to this pictorial 
+ city, hire houseboats, cruise across the turquoise backwaters, and unravel the magical charm and appeal of Kottayam.
+
+</pre>
+<h1 id="time"><b>Best Time to Visit Kottayam Backwaters</b></h1>    
+<pre>
+    
+    If planning for amazing backwater tours in Kerala, you should visit Kottayam during the months of September to February. This is the time of 
+ the year, when this ideal backwater destination in Kerala experiences the winters. With the mercury level going down, the entire of Kottayam offers
+ a serene, surreal, and tranquil ambience to enjoy the backwater holiday packages.
+
+</pre><br><h1 id="list">Tourist Attractions Around Kottayam Backwaters :</h1>
+
+<div class="main"> <div id="a1"><img src="./Pathiramanal-Island (1).jpg" alt=""></div><div id="a2">PATHIRAMANAL ISLAND</div><div id="a3">
+    Graced by the charm of Vembanad Lake, Pathiramal Island is undoubtedly one of the best places to visit in Kerala! This is an islet where
+ you can chit-chat with the many different marvels of Mother Nature, and get pleasantly lost amid them.</div></div>
+<div class="main" id="m1"> <div id="a1"><img src="./Marmala-Waterfalls.jpg" alt=""></div><div id="a2">MARMALA WATERFALLS</div><div id="a3">
+    A bit of challenging terrains, a bit of off-roading, and a bit of adrenaline rush from Kottayam Backwaters will take you to the mesmeric
+     Marmala Waterfalls. Though reaching out to the base of this enchanting cascade is strenuous in its own ways, its prismatic charm and 
+     appeal will make you forget everything!</div></div>
+<div class="main" id="m2"> <div id="a1"><img src="./Kumarakom-Bird-Sanctuary (1).jpg" alt=""></div><div id="a2">KUMARAKOM BIRD SANCTUARY</div><div id="a3">
+    Whether you are or not a nature lover, the Kumarakom Bird Sanctuary will surely make you crave for more! Home to a large number of migratory and local
+     birds, this wildlife protected area is an ideal place to behold the miraculous beauty of Kerala.</div></div><br>
+
+<div class="main1"><div id="a1"><img src="./poonjar-palace.jpg" alt=""></div><div id="a2">POONJAR PALACE</div><div id="a3">
+    Enduring the rich heritage and bucolic traditions of Kerala, this royal palace is an architectural masterpiece. Built mostly of wood, it has ancient 
+    wooden carvings that can transport you to an era bygone within just a wink of the eye!</div></div>
+<div class="main1"><div id="a1"><img src="./jumma-masjid (1).jpg" alt=""></div><div id="a2">JUMA MASJID</div><div id="a3">
+    Famed as the oldest masjid in India, Juma Masjid is a symbol of universal peace and brotherhood. Seated along the banks of Meenachil River, 
+    this mosque is a brilliant display of ancient Kerala architecture.</div></div>
+<div class="main1"><div id="a1"><img src="./Bay-Island-Driftwood-Museum.jpg" alt=""></div><div id="a2">BAY ISLAND DRIFTWOOD MUSEUM</div><div id="a3">
+    Nature is the most enticing artist, and a visit to the Bay Island Driftwood Museum will make you feel this! A museum of its own kind, it houses 
+    wooden artefacts and structures washed away in the sea, or created by the sea.</div></div><br><br>
+    <br><br>
+     
+
+    
+
+
+
+
+              
+</body>
+</html>

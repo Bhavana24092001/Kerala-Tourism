@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0PX;
+            padding: 0PX;
+        }
+        .background{
+            width: 100%;
+            height: 10vh;
+            background-image: linear-gradient( 180deg, rgb(40, 158, 205), rgb(197, 36, 63));
+            background-size: cover;
+            background-position: center;
+            position: fixed;
+            
+
+        }
+        .navbar{
+            position: fixed;
+            width: 85%;
+            margin: auto;
+            padding-left: 450px ;
+            padding-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .navbar ul li::after{
+            content: '';
+            height: 3px;
+            width: 0;
+            background-color: rgb(34, 181, 239);
+            position: absolute;
+            left: 0px;
+           bottom: -10px; 
+           transition: 0.5s;
+        }
+        .navbar ul li:hover::after{
+           width: 100%;
+        }
+        img{
+            width: 100%;
+            height: 600px;
+        }
+        pre{
+            font-size: 18px;
+            font-style:oblique;
+           
+        }
+        h1{
+            text-align: center;
+            color: rgb(34, 155, 203);
+            font-size: 45px;
+        }
+        p{
+            font-size: 18px;
+        }
+        
+        #text{
+    font-size: 60px;
+        color:white;
+       text-align: center;
+       background-color: black;
+       opacity: 0.8;
+       width: 900px;
+       height: 90px;
+       position: absolute;
+       left: 350px;
+       top: 150px;
+       padding-top: 20px;
+    }
+    #a1{
+            width: 180px;
+            height: 40px;
+            background-color: rgb(24, 121, 159);
+            border-radius: 20px 20px 20px 20px;
+            margin-left: 650px;
+            color: white;
+        }
+        #b1{
+            padding-top: 10px;
+            padding-left: 24px;
+        }
+    #en{
+            text-decoration: none;
+            color: white;
+        }  
+        
+    </style>
+</head>
+<body>
+    
+    <div>
+        <div class="background">
+            <div class="navbar">
+                <ul>
+                    <li><a href="./Home.html">HOME</a></li>
+                    <li><a href="./MustVisitPlaces.html">MUST VISIT PLACES</a></li>
+                    <li><a href="./Destinations.html">DESTINATIONS</a></li>
+                    <li><a href="./Enquiry.html">ENQURY</a></li>
+                    <li><a href="./Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src="./vembanad.jpeg" alt="">
+        <h1 id="text">  VEMBANAD LAKE</h1>
+    </div>
+    <h1>VEMBANAD LAKE KERALA</h1>
+    <pre><center>
+        
+        The gem in the tourism map of Kerala, Vembanad Lake boasts of being the longest lake in India and also the largest lake in God’s Own Country! 
+        Also called the ‘Vembanad Kayal’ and ‘Vembanad Kol’, this pristine lake is known for its magical charm and spreads
+          its magical beauty across several tourist destinations in Kerala!
+
+    A stunning tributary of the great Arabian Sea, it is one of the best backwater destinations in the entire globe. It is in this lake, where visitors 
+    can find most of the houseboats within the state. Owing to this, it is often called the ‘Backwater Paradise’ and is also 
+    revered as one of the best tourist attractions in Kerala.
+
+    Planning a Kerala trip without a visit to this lake is simply like visiting a holy site without visiting its main deity; such is the beauty
+     and allurement of Vembanad Lake in Kerala!</center>
+    
+    </pre>
+     <center> <p><b>Location :</b>Throughout Kerala</p></center>
+     <center><p><b>How to Reach :</b> Vembanad Lake spreads its beauty across many popular cities and tourist destinations in Kerala. Visitors can reach this
+         pristine lake from major destinations like Alleppey, Kochi, Kumarakom, Kuttanad, Kottayam, Ernakulam, and several others.</p></center>
+         <br><br>
+         <div id="a1"><p id="b1"><a href="./Enquiry.html" id="en">ENQUIRY NOW</a></p><br>
+         </div>
+</body>
+</html>
