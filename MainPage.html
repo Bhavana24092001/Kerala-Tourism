@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .background{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./BackGround.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .navbar{
+            position: fixed;
+            width: 85%;
+            margin: auto;
+            padding-left: 450px ;
+            padding-top: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: white;
+
+        }
+        .navbar ul li::after{
+            content: '';
+            height: 3px;
+            width: 0;
+            background-color: rgb(34, 181, 239);
+            position: absolute;
+            left: 0px;
+           bottom: -10px; 
+           transition: 0.5s;
+        }
+        .navbar ul li:hover::after{
+           width: 100%;
+        }
+        .content{
+            width: 100%;
+            position: absolute;
+            top: 40%;
+            transform: translateY(-50%);
+            text-align: center;
+            color: white;
+        }
+        .content h1{
+            font-size: 50px;
+            margin-top: 80px;
+        }
+        .content p{
+            margin: 20px auto;
+            font-weight: 100;
+            line-height: 25px;
+        }
+        
+        .content h2::before{
+            background-color: white;
+            display: block;
+            width: 140px;
+            height: 2px;
+            content: "";
+            position: absolute;
+            left: 510px;
+            top: 59%;
+            z-index: -1;
+
+        }
+        .content h2::after{
+            background-color: white;
+            display: block;
+            width: 140px;
+            height: 2px;
+            content: "";
+            position: absolute;
+            right: 510px;
+            top: 59%;
+            z-index: -1;
+
+        }
+    </style>
+</head>
+<body>
+<div>
+ <div class="background">
+  <div class="navbar">
+           
+            <ul>
+                
+                <li><a href="./Home.html">HOME</a></li>
+                <li><a href="./MustVisitPlaces.html">MUST VISIT PLACES</a></li>
+                <li><a href="./Destinations.html">DESTINATIONS</a></li>
+                <li><a href="./Enquiry.html">ENQUIRY</a></li>
+                <li><a href="#">CONTACT</a></li>
+
+            </ul>
+        </div>  
+ </div> </div>
+        <div class="content">
+            <h1>GOD'S OWN COUNTRY</h1><BR>
+                <h2>KERALA</h2>
+            <P>I hope it will help to find the best tourism places to enjoy your vacation 
+                <br> with your Family, Friends or with your life Partner</P>
+                <button type="button"></button>
+        </div>
+
+     </div>
+     <script>
+        
+     </script>
+</body>
+</html>
